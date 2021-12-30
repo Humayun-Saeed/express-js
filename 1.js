@@ -17,7 +17,7 @@ res.send(c.hostname);
 
 app.get('/about',(req,res)=>{
 
-   // res.send("hello form about us side: ");
+   // res.send("hello form about us side: hello ");
 
 
 fs.readFile('./try.js',(err,data)=>{
